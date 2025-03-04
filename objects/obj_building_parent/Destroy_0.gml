@@ -1,0 +1,1 @@
+set_tile_state(id, tile_state.empty);
