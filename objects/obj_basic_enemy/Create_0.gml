@@ -1,13 +1,23 @@
+// initialization
 path = path_add();
-state_machine = new StateMachine();
 
+// enemy variables
 target = noone;
 attack_damage = 0.25;
 
+#region state machine
+
+// state machine setup
+state_machine = new StateMachine();
+
+#region find_target state
+
 find_target = new State();
+
 find_target.create = function() {
 	update_target_path();
 }
+
 find_target.update = function() {
 	if (path_position == 1) state_machine.swap(attack);
 	if (state_machine.time mod (1 * game_get_speed(gamespeed_fps)) == 0) {
@@ -15,7 +25,12 @@ find_target.update = function() {
 	}
 }
 
+#endregion
+
+#region attack state
+
 attack = new State();
+
 attack.update = function() {
 	if (instance_exists(target)) {
 		if (state_machine.time mod (1 * game_get_speed(gamespeed_fps)) == 0) {
@@ -31,4 +46,9 @@ attack.update = function() {
 	}
 }
 
+#endregion
+
+// set initial state
 state_machine.swap(find_target);
+
+#endregion
