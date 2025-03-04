@@ -14,6 +14,7 @@ if (instance_exists(parent_town_hall)) {
 	}
 	
 }
-draw_set_color(c_white);
 
+draw_set_color(c_white);
+	
 #endregion
