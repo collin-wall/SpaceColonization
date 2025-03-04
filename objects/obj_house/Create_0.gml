@@ -1,8 +1,9 @@
 event_inherited();
 
-// Initialize
+// initialization
 path = path_add();
+alarm[0] = 1;
+
+// house variables
 parent_town_hall = undefined;
 child_colonist = undefined;
-
-alarm[0] = 1;
