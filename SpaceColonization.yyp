@@ -65,7 +65,6 @@
     {"id":{"name":"spr_house","path":"sprites/spr_house/spr_house.yy",},},
     {"id":{"name":"spr_projectile_tower_1","path":"sprites/spr_projectile_tower_1/spr_projectile_tower_1.yy",},},
     {"id":{"name":"spr_rock","path":"sprites/spr_rock/spr_rock.yy",},},
-    {"id":{"name":"spr_tower_option_button","path":"sprites/spr_tower_option_button/spr_tower_option_button.yy",},},
     {"id":{"name":"spr_town_hall_icon","path":"sprites/spr_town_hall_icon/spr_town_hall_icon.yy",},},
     {"id":{"name":"spr_town_hall","path":"sprites/spr_town_hall/spr_town_hall.yy",},},
   ],
