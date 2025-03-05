@@ -1,18 +1,18 @@
 {
   "$GMObject":"",
-  "%Name":"obj_rock",
-  "eventList":[],
+  "%Name":"obj_camera",
+  "eventList":[
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":2,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+  ],
   "managed":true,
-  "name":"obj_rock",
+  "name":"obj_camera",
   "overriddenProperties":[],
   "parent":{
-    "name":"Obstacles",
-    "path":"folders/Objects/TileObjects/Obstacles.yy",
+    "name":"Meta",
+    "path":"folders/Objects/Meta.yy",
   },
-  "parentObjectId":{
-    "name":"obj_obstacle_parent",
-    "path":"objects/obj_obstacle_parent/obj_obstacle_parent.yy",
-  },
+  "parentObjectId":null,
   "persistent":false,
   "physicsAngularDamping":0.1,
   "physicsDensity":0.5,
@@ -30,10 +30,7 @@
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
-  "spriteId":{
-    "name":"spr_rock",
-    "path":"sprites/spr_rock/spr_rock.yy",
-  },
+  "spriteId":null,
   "spriteMaskId":null,
   "visible":true,
 }

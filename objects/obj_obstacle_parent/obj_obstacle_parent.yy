@@ -1,18 +1,18 @@
 {
   "$GMObject":"",
   "%Name":"obj_obstacle_parent",
-  "eventList":[
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":1,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-  ],
+  "eventList":[],
   "managed":true,
   "name":"obj_obstacle_parent",
   "overriddenProperties":[],
   "parent":{
     "name":"Obstacles",
-    "path":"folders/Objects/Obstacles.yy",
+    "path":"folders/Objects/TileObjects/Obstacles.yy",
   },
-  "parentObjectId":null,
+  "parentObjectId":{
+    "name":"obj_tile_object_parent",
+    "path":"objects/obj_tile_object_parent/obj_tile_object_parent.yy",
+  },
   "persistent":false,
   "physicsAngularDamping":0.1,
   "physicsDensity":0.5,

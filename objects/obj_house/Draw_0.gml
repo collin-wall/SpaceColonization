@@ -4,17 +4,9 @@ draw_self();
 
 draw_set_color(image_blend);
 
+// [DEBUG] draw path path
 if (instance_exists(parent_town_hall)) {
-	
-	// target positioning
-	var target_x = parent_town_hall.origin_x;
-	var target_y = parent_town_hall.origin_y;
-	
-	// draw path if valid path exists to target
-	if (mp_grid_path(global.pathfinding_grid, path, origin_x, origin_y, target_x, target_y, true)) {
-		draw_path(path, origin_x, origin_y, true);
-	}
-	
+	if (global.debugging) draw_path(path, origin_x, origin_y, true);
 }
 
 draw_set_color(c_white);

@@ -12,7 +12,7 @@
   "overriddenProperties":[],
   "parent":{
     "name":"Buildings",
-    "path":"folders/Objects/Buildings.yy",
+    "path":"folders/Objects/TileObjects/Buildings.yy",
   },
   "parentObjectId":{
     "name":"obj_building_parent",

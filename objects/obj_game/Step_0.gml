@@ -1,1 +1,0 @@
-var input_start_wave = keyboard_check_pressed(vk_space);

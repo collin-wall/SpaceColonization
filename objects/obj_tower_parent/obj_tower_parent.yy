@@ -1,17 +1,17 @@
 {
   "$GMObject":"",
-  "%Name":"obj_rock",
+  "%Name":"obj_tower_parent",
   "eventList":[],
   "managed":true,
-  "name":"obj_rock",
+  "name":"obj_tower_parent",
   "overriddenProperties":[],
   "parent":{
-    "name":"Obstacles",
-    "path":"folders/Objects/TileObjects/Obstacles.yy",
+    "name":"Towers",
+    "path":"folders/Objects/TileObjects/Buildings/Towers.yy",
   },
   "parentObjectId":{
-    "name":"obj_obstacle_parent",
-    "path":"objects/obj_obstacle_parent/obj_obstacle_parent.yy",
+    "name":"obj_building_parent",
+    "path":"objects/obj_building_parent/obj_building_parent.yy",
   },
   "persistent":false,
   "physicsAngularDamping":0.1,
@@ -30,10 +30,7 @@
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
-  "spriteId":{
-    "name":"spr_rock",
-    "path":"sprites/spr_rock/spr_rock.yy",
-  },
+  "spriteId":null,
   "spriteMaskId":null,
   "visible":true,
 }

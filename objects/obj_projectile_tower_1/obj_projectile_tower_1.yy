@@ -1,18 +1,20 @@
 {
   "$GMObject":"",
-  "%Name":"obj_basic_enemy",
+  "%Name":"obj_projectile_tower_1",
   "eventList":[
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"obj_basic_enemy",
+  "name":"obj_projectile_tower_1",
   "overriddenProperties":[],
   "parent":{
-    "name":"Objects",
-    "path":"folders/Objects.yy",
+    "name":"ProjectileTowers",
+    "path":"folders/Objects/TileObjects/Buildings/Towers/ProjectileTowers.yy",
   },
-  "parentObjectId":null,
+  "parentObjectId":{
+    "name":"obj_projectile_tower_parent",
+    "path":"objects/obj_projectile_tower_parent/obj_projectile_tower_parent.yy",
+  },
   "persistent":false,
   "physicsAngularDamping":0.1,
   "physicsDensity":0.5,
@@ -31,8 +33,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_basic_enemy",
-    "path":"sprites/spr_basic_enemy/spr_basic_enemy.yy",
+    "name":"spr_projectile_tower_1",
+    "path":"sprites/spr_projectile_tower_1/spr_projectile_tower_1.yy",
   },
   "spriteMaskId":null,
   "visible":true,

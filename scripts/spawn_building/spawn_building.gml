@@ -3,7 +3,7 @@
 ///@param {Asset.GMObject} _building_object The building object to spawn.
 ///@param {Real} _spawn_radius The spawn radius of the building.
 
-function spawn_building(_building_object, _spawn_radius) {
+function spawn_building(_building_object, _spawn_radius, _struct = {}) {
 	
 	var grid_x, grid_y;
 	
@@ -23,8 +23,12 @@ function spawn_building(_building_object, _spawn_radius) {
 			&& (grid_y >= 0) && (grid_y < ds_grid_height(global.game_grid));
 	
 	// spawn building
-	var building = instance_create_layer(grid_x * CELL_WIDTH, grid_y * CELL_HEIGHT, "Buildings", _building_object);
+	var building_x = grid_x * CELL_WIDTH;
+	var building_y = grid_y * CELL_HEIGHT;
+	var building = instance_create_layer(building_x, building_y, "Buildings", _building_object, _struct);
 	set_tile_state(building);
+	
+	// [DEBUG]
 	print_grid_coords(building.x, building.y);
 	
 	return building;

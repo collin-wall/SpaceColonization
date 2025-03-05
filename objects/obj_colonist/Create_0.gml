@@ -1,6 +1,3 @@
-// initialization
-image_blend = parent_town_hall.image_blend;
-
 #region state machine
 
 // state machine setup
@@ -16,6 +13,7 @@ walk_to_work = new State();
 
 walk_to_work.create = function() {
 	path_start(path, 1, path_action_stop, true);
+	image_alpha = 1;
 }
 
 walk_to_work.update = function() {
@@ -29,6 +27,10 @@ walk_to_work.update = function() {
 #region at_work state
 
 at_work = new State();
+
+at_work.create = function() {
+	image_alpha = 0;
+}
 
 at_work.update = function() {
 	if (state_machine.time >= at_work_delay) {
@@ -45,6 +47,7 @@ walk_to_house = new State();
 
 walk_to_house.create = function() {
 	path_start(path, -1, path_action_stop, true);
+	image_alpha = 1;
 }
 
 walk_to_house.update = function() {
@@ -58,6 +61,10 @@ walk_to_house.update = function() {
 #region at_house state
 
 at_house = new State();
+
+at_house.create = function() {
+	image_alpha = 0;
+}
 
 at_house.update = function() {
 	if (state_machine.time >= at_house_delay) {
