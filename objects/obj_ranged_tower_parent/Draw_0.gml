@@ -1,7 +1,20 @@
 draw_self();
 
-// [DEBUG] draw projectile origin
-if (global.debugging) draw_point(projectile_origin_x, projectile_origin_y);
+#region [DEBUG]
 
-// [DEBUG] draw tower vision range
-if (global.debugging) draw_circle(origin_x, origin_y, vision_range, true);
+if (global.debugging) {
+	
+	// draw projectile origin
+	draw_point(projectile_origin_x, projectile_origin_y);
+
+	// draw tower vision range
+	draw_circle(origin_x, origin_y, vision_range, true);
+
+	// draw line to target
+	if (instance_exists(target)) {
+		draw_line(projectile_origin_x, projectile_origin_y, target.x, target.y);
+	}
+	
+}
+
+#endregion

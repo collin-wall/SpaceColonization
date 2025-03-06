@@ -1,20 +1,15 @@
 {
   "$GMObject":"",
-  "%Name":"obj_hitscan_tower_parent",
-  "eventList":[
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-  ],
+  "%Name":"obj_enemy_parent",
+  "eventList":[],
   "managed":true,
-  "name":"obj_hitscan_tower_parent",
+  "name":"obj_enemy_parent",
   "overriddenProperties":[],
   "parent":{
-    "name":"HitscanTowers",
-    "path":"folders/Objects/TileObjects/Structures/Towers/RangedTowers/HitscanTowers.yy",
+    "name":"Enemies",
+    "path":"folders/Objects/Enemies.yy",
   },
-  "parentObjectId":{
-    "name":"obj_ranged_tower_parent",
-    "path":"objects/obj_ranged_tower_parent/obj_ranged_tower_parent.yy",
-  },
+  "parentObjectId":null,
   "persistent":false,
   "physicsAngularDamping":0.1,
   "physicsDensity":0.5,

@@ -2,6 +2,8 @@
 var gw = display_get_gui_width();
 var gh = display_get_gui_height();
 
+#region quota bar
+
 // quota bar positioning
 var qx1 = gw * 0.25;
 var qx2 = gw * 0.75;
@@ -19,16 +21,4 @@ for (var i = qx1 + inc; i <= qx2 - inc; i += inc) {
 	draw_line(i, qy1, i, qy2);
 }
 
-// [TEMP] draw buttons
-//var button_width = gw * 0.10;
-//var button_height = button_width;
-//var button_spacing = gw * 0.025;
-//var button_edge_buffer = gh * 0.025;
-
-//var bx1 = (gw / 2) - (button_width / 2) - button_width - button_spacing;
-//var by1 = gh - button_edge_buffer - button_height;
-
-//for (var i = 0; i < 3; i++) {
-//	var spacing = i * (button_width + button_spacing);
-//	draw_sprite_stretched(spr_tower_option_button, 0, bx1 + spacing, by1, button_width, button_height);
-//}
+#endregion
