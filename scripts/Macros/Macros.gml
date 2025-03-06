@@ -7,3 +7,5 @@
 #macro RES_HEIGHT 288
 
 #macro CAM_INDEX 0
+
+#macro ENEMY_TARGET_CALLS 3

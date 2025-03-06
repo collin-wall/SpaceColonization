@@ -18,4 +18,9 @@ function set_tile_state(_inst = id, _tile_state = tile_state.occupied) {
 		}
 	}
 	
+	// remove tile from pathfinding grid when setting to empty
+	if (_tile_state == tile_state.empty) {
+		mp_grid_clear_cell(global.pathfinding_grid, grid_x, grid_y);
+	}
+	
 }

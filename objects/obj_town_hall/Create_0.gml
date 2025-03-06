@@ -7,5 +7,5 @@ alarm[0] = 2 * game_get_speed(gamespeed_fps);
 // town hall variables
 starting_house_count = 1;
 house_spawn_radius = 6 * CELL_WIDTH;
-house_spawn_delay = 60 * game_get_speed(gamespeed_fps);
+house_spawn_delay = 5 * game_get_speed(gamespeed_fps);
 child_houses = [];

@@ -25,11 +25,8 @@ function spawn_building(_building_object, _spawn_radius, _struct = {}) {
 	// spawn building
 	var building_x = grid_x * CELL_WIDTH;
 	var building_y = grid_y * CELL_HEIGHT;
-	var building = instance_create_layer(building_x, building_y, "Buildings", _building_object, _struct);
+	var building = instance_create_layer(building_x, building_y, "Structures", _building_object, _struct);
 	set_tile_state(building);
-	
-	// [DEBUG]
-	print_grid_coords(building.x, building.y);
 	
 	return building;
 	

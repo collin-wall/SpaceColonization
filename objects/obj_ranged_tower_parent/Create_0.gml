@@ -1,9 +1,8 @@
 event_inherited();
 
 // tower setup
-target = noone;
+target_id = noone;
 attack_cooldown = 0;
-enemy_data = [];
 
 // tower stats
 vision_range = 0;
