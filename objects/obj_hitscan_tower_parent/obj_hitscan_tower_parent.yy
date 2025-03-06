@@ -1,17 +1,17 @@
 {
   "$GMObject":"",
-  "%Name":"obj_tower_parent",
+  "%Name":"obj_hitscan_tower_parent",
   "eventList":[],
   "managed":true,
-  "name":"obj_tower_parent",
+  "name":"obj_hitscan_tower_parent",
   "overriddenProperties":[],
   "parent":{
-    "name":"Towers",
-    "path":"folders/Objects/TileObjects/Structures/Towers.yy",
+    "name":"HitscanTowers",
+    "path":"folders/Objects/TileObjects/Structures/Towers/RangedTowers/HitscanTowers.yy",
   },
   "parentObjectId":{
-    "name":"obj_structure_parent",
-    "path":"objects/obj_structure_parent/obj_structure_parent.yy",
+    "name":"obj_ranged_tower_parent",
+    "path":"objects/obj_ranged_tower_parent/obj_ranged_tower_parent.yy",
   },
   "persistent":false,
   "physicsAngularDamping":0.1,

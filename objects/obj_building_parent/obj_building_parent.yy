@@ -7,11 +7,11 @@
   "overriddenProperties":[],
   "parent":{
     "name":"Buildings",
-    "path":"folders/Objects/TileObjects/Buildings.yy",
+    "path":"folders/Objects/TileObjects/Structures/Buildings.yy",
   },
   "parentObjectId":{
-    "name":"obj_tile_object_parent",
-    "path":"objects/obj_tile_object_parent/obj_tile_object_parent.yy",
+    "name":"obj_structure_parent",
+    "path":"objects/obj_structure_parent/obj_structure_parent.yy",
   },
   "persistent":false,
   "physicsAngularDamping":0.1,

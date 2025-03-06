@@ -1,17 +1,17 @@
 {
   "$GMObject":"",
-  "%Name":"obj_tower_parent",
+  "%Name":"obj_structure_parent",
   "eventList":[],
   "managed":true,
-  "name":"obj_tower_parent",
+  "name":"obj_structure_parent",
   "overriddenProperties":[],
   "parent":{
-    "name":"Towers",
-    "path":"folders/Objects/TileObjects/Structures/Towers.yy",
+    "name":"Structures",
+    "path":"folders/Objects/TileObjects/Structures.yy",
   },
   "parentObjectId":{
-    "name":"obj_structure_parent",
-    "path":"objects/obj_structure_parent/obj_structure_parent.yy",
+    "name":"obj_tile_object_parent",
+    "path":"objects/obj_tile_object_parent/obj_tile_object_parent.yy",
   },
   "persistent":false,
   "physicsAngularDamping":0.1,

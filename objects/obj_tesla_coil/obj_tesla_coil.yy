@@ -1,19 +1,19 @@
 {
   "$GMObject":"",
-  "%Name":"obj_projectile_tower_1",
+  "%Name":"obj_tesla_coil",
   "eventList":[
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"obj_projectile_tower_1",
+  "name":"obj_tesla_coil",
   "overriddenProperties":[],
   "parent":{
-    "name":"ProjectileTowers",
-    "path":"folders/Objects/TileObjects/Buildings/Towers/ProjectileTowers.yy",
+    "name":"HitscanTowers",
+    "path":"folders/Objects/TileObjects/Structures/Towers/RangedTowers/HitscanTowers.yy",
   },
   "parentObjectId":{
-    "name":"obj_projectile_tower_parent",
-    "path":"objects/obj_projectile_tower_parent/obj_projectile_tower_parent.yy",
+    "name":"obj_hitscan_tower_parent",
+    "path":"objects/obj_hitscan_tower_parent/obj_hitscan_tower_parent.yy",
   },
   "persistent":false,
   "physicsAngularDamping":0.1,

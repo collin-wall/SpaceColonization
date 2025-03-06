@@ -1,19 +1,20 @@
 {
   "$GMObject":"",
-  "%Name":"obj_projectile_tower_parent",
+  "%Name":"obj_ranged_tower_parent",
   "eventList":[
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":8,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"obj_projectile_tower_parent",
+  "name":"obj_ranged_tower_parent",
   "overriddenProperties":[],
   "parent":{
-    "name":"ProjectileTowers",
-    "path":"folders/Objects/TileObjects/Structures/Towers/RangedTowers/ProjectileTowers.yy",
+    "name":"RangedTowers",
+    "path":"folders/Objects/TileObjects/Structures/Towers/RangedTowers.yy",
   },
   "parentObjectId":{
-    "name":"obj_ranged_tower_parent",
-    "path":"objects/obj_ranged_tower_parent/obj_ranged_tower_parent.yy",
+    "name":"obj_tower_parent",
+    "path":"objects/obj_tower_parent/obj_tower_parent.yy",
   },
   "persistent":false,
   "physicsAngularDamping":0.1,
