@@ -67,6 +67,7 @@
     {"id":{"name":"rm_test","path":"rooms/rm_test/rm_test.yy",},},
     {"id":{"name":"DebugScripts","path":"scripts/DebugScripts/DebugScripts.yy",},},
     {"id":{"name":"Enums","path":"scripts/Enums/Enums.yy",},},
+    {"id":{"name":"HouseScripts","path":"scripts/HouseScripts/HouseScripts.yy",},},
     {"id":{"name":"instance_nth_nearest","path":"scripts/instance_nth_nearest/instance_nth_nearest.yy",},},
     {"id":{"name":"Macros","path":"scripts/Macros/Macros.yy",},},
     {"id":{"name":"map_value","path":"scripts/map_value/map_value.yy",},},

@@ -1,7 +1,7 @@
 event_inherited();
 
-// change colonist state to flee
-with (child_colonist) state_machine.swap(flee);
+// destroy colonist on deletion
+if (instance_exists(child_colonist)) instance_destroy(child_colonist);
 
 // remove self from parent town hall children list when destroyed
 with (parent_town_hall) {

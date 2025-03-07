@@ -74,16 +74,6 @@ at_house.update = function() {
 
 #endregion
 
-#region flee state
-
-flee = new State();
-
-flee.create = function() {
-	instance_destroy();
-}
-
-#endregion
-
 // set initial state
 state_machine.swap(at_house);
 
