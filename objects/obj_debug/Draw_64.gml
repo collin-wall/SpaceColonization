@@ -1,3 +1,5 @@
+///@desc debug gui
+
 if (global.debugging) {
 	
 	var debug_text = [

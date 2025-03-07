@@ -11,3 +11,6 @@ with (parent_town_hall) {
 		}
 	}
 }
+
+// path cleanup
+path_delete(path);

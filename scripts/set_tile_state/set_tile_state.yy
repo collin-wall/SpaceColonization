@@ -5,8 +5,8 @@
   "isDnD":false,
   "name":"set_tile_state",
   "parent":{
-    "name":"Scripts",
-    "path":"folders/Scripts.yy",
+    "name":"TileScripts",
+    "path":"folders/Scripts/TileScripts.yy",
   },
   "resourceType":"GMScript",
   "resourceVersion":"2.0",

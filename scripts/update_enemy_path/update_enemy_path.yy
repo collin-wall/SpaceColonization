@@ -1,12 +1,12 @@
 {
   "$GMScript":"v1",
-  "%Name":"DebugScripts",
+  "%Name":"update_enemy_path",
   "isCompatibility":false,
   "isDnD":false,
-  "name":"DebugScripts",
+  "name":"update_enemy_path",
   "parent":{
-    "name":"Scripts",
-    "path":"folders/Scripts.yy",
+    "name":"EnemyScripts",
+    "path":"folders/Scripts/EnemyScripts.yy",
   },
   "resourceType":"GMScript",
   "resourceVersion":"2.0",

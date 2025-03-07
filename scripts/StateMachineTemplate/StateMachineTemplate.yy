@@ -5,8 +5,8 @@
   "isDnD":false,
   "name":"StateMachineTemplate",
   "parent":{
-    "name":"Scripts",
-    "path":"folders/Scripts.yy",
+    "name":"TemplateScripts",
+    "path":"folders/Scripts/TemplateScripts.yy",
   },
   "resourceType":"GMScript",
   "resourceVersion":"2.0",

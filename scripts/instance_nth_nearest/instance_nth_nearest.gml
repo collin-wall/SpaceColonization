@@ -1,9 +1,10 @@
 ///@func instance_nth_nearest(_x, _y, _object, _n);
 ///@desc Returns the id of the nth nearest instance of an object.
-///@param _x		{Real}				The x coordinate to search from.
-///@param _y		{Real}				The y coordinate to search from.
-///@param _object {Asset.GMObject}	The object to search for.
-///@param _n		{Real}				The nth object to find.
+///@param	{Real}				_x			The x coordinate to search from.
+///@param	{Real}				_y			The y coordinate to search from.
+///@param	{Asset.GMObject}	_object	The object to search for.
+///@param	{Real}				_n			The nth object to find.
+///@returns {Id.Instance}					The instance id that is returned.
 
 function instance_nth_nearest(_x, _y, _object, _n) {
 	

@@ -5,8 +5,8 @@
   "isDnD":false,
   "name":"spawn_building",
   "parent":{
-    "name":"Scripts",
-    "path":"folders/Scripts.yy",
+    "name":"StructureScripts",
+    "path":"folders/Scripts/StructureScripts.yy",
   },
   "resourceType":"GMScript",
   "resourceVersion":"2.0",

@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"update_house_paths",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"update_house_paths",
+  "parent":{
+    "name":"HouseScripts",
+    "path":"folders/Scripts/StructureScripts/HouseScripts.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

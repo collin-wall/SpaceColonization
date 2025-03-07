@@ -1,7 +1,7 @@
 ///@func set_tile_state(_inst = id, _tile_state = tile_state.occupied);
 ///@desc Sets tile state based on the size of the calling instance.
-///@param {Id.Instance} _inst The instance occupying tiles (default: id)
-///@param {Real} _tile_state The state to set the tiles below the calling instance.
+///@param {Id.Instance} _inst			The instance occupying tiles (default: id)
+///@param {Real}			_tile_state The state to set the tiles below the calling instance.
 
 function set_tile_state(_inst = id, _tile_state = tile_state.occupied) {
 	

@@ -1,3 +1,5 @@
+#region find target
+	
 // ds list to store targets within
 var target_list = ds_list_create();
 
@@ -80,3 +82,5 @@ if (target_count > 0) {
 
 // target list cleanup
 ds_list_destroy(target_list);
+	
+#endregion

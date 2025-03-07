@@ -1,3 +1,4 @@
+// follow target
 if (instance_exists(camera_target)) {
 	var cam_x = camera_target.origin_x - (RES_WIDTH / 2);
 	var cam_y = camera_target.origin_y - (RES_HEIGHT / 2);
