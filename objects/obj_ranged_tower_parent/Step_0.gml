@@ -1,3 +1,5 @@
+event_inherited();
+
 #region find target
 	
 // ds list to store targets within

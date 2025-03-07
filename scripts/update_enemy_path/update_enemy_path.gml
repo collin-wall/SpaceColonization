@@ -6,7 +6,7 @@ function update_enemy_path() {
 	// shortest path length
 	var shortest_path_length = 999999;
 
-	with (obj_building_parent) {
+	with (obj_structure_parent) {
 	
 		// enemy path variables
 		var _path = other.path;
@@ -23,10 +23,15 @@ function update_enemy_path() {
 		
 			// set shortest path length and assign temp path to main path
 			if (path_length < shortest_path_length) {
-			
+				
+				// set shortest path length
 				shortest_path_length = path_length;
-			
+				
+				// set path to enemy
 				path_assign(_path, _temp_path);
+				
+				// set enemy target id to building id
+				other.target_id = id;
 			
 			}
 		}

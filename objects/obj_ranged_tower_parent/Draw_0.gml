@@ -1,4 +1,4 @@
-draw_self();
+event_inherited();
 
 #region [DEBUG]
 

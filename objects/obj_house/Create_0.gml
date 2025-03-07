@@ -7,3 +7,7 @@ child_colonist = noone;
 // house path setup
 path = path_add();
 update_house_path();
+
+// house stats
+max_hp = 10;
+hp = max_hp;

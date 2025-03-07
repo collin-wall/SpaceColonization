@@ -1,6 +1,6 @@
-draw_self();
+event_inherited();
 
-#region DRAW TOWN HALL PATH
+#region draw town hall path
 
 draw_set_color(image_blend);
 
@@ -10,5 +10,5 @@ if (instance_exists(parent_town_hall)) {
 }
 
 draw_set_color(c_white);
-	
+
 #endregion

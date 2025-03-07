@@ -9,3 +9,6 @@
 #macro CAM_INDEX 0
 
 #macro ENEMY_TARGET_CALLS 3
+
+#macro TOWER_HIT_SHAKE 5
+#macro HIT_SHAKE_LERP 0.5
